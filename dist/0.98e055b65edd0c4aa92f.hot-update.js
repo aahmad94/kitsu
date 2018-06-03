@@ -1,0 +1,2 @@
+webpackHotUpdate(0,{68:function(e,t,a){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var l,r=a(1),u=(l=r)&&l.__esModule?l:{default:l};t.default=function(e){var t=e.items;return u.default.createElement("ul",null,t.map(function(e){var t=Object.keys(e.attributes.titles)[0],a=e.attributes.titles[t],l=e.attributes.coverImage,r=l?l.original:"";return u.default.createElement("li",{key:a},a,u.default.createElement("img",{src:r,height:"25%",width:"25%",alt:""}))}))}}});
+//# sourceMappingURL=0.98e055b65edd0c4aa92f.hot-update.js.map

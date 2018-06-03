@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/components/search/list.jsx"],"names":["_react","__webpack_require__"],"mappings":"qGAAA,MAAAA,EAAAC,EAAA,iCAEe","file":"0.95e8eb6387360ce07cdb.hot-update.js","sourcesContent":["import React from 'react';\n\nexport default () => {\n  \n};"],"sourceRoot":""}

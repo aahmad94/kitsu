@@ -1,0 +1,2 @@
+webpackHotUpdate(0,{68:function(e,t,u){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var a=l(u(1)),r=l(u(69));function l(e){return e&&e.__esModule?e:{default:e}}t.default=function(e){var t=e.items;return a.default.createElement("ul",null,t.map(function(e){var t=Object.keys(e.attributes.titles)[0],u=e.attributes.titles[t],l=e.attributes.coverImage,i=l?l.original:"";return a.default.createElement(r.default,{key:u,title:u,imageUrl:i})}))}}});
+//# sourceMappingURL=0.81116441432c3cd353d0.hot-update.js.map

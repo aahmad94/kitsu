@@ -1,0 +1,2 @@
+webpackHotUpdate(0,{19:function(e,t,i){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.fetchAnime=void 0;var n,u=i(47),a=(n=u)&&n.__esModule?n:{default:n};t.fetchAnime=function(){return a.default.get("https://kitsu.io/api/edge/anime?page[limit]=5&filter[text]=cowboy").then(function(e){return e.data})}}});
+//# sourceMappingURL=0.96a000d33d59d35d770e.hot-update.js.map

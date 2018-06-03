@@ -9,10 +9,9 @@ export default class SearchBar extends React.Component {
     };
   }
 
-  handleChange(term) {
-    console.log(this.props);
-    this.setState({term: term});
-    this.props.onAnimeSearchTermChange();
+  handleChange(text) {
+    this.setState({term: text});
+    this.props.onSearchTermChange(text);
   }
 
   render() {

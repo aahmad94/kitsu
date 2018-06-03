@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/components/search/list_item.jsx"],"names":["_react","__webpack_require__","_ref","title","imageUrl"],"mappings":"qGAAA,MAAAA,EAAAC,EAAA,iCAEe,SAAAC,GAAyBA,EAAtBC,MAAsBD,EAAfE","file":"0.f5094452d3089dd8716c.hot-update.js","sourcesContent":["import React from 'react';\n\nexport default ({ title, imageUrl }) => {\n\n};"],"sourceRoot":""}

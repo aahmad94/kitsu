@@ -1,37 +1,27 @@
 import React from 'react';
 import SearchBar from './search_bar';
+import List from './list';
+
 import { fetchAnime } from '../../actions/search/anime';
 
 export default class SearchFeed extends React.Component {
   constructor() {
     super();
     this.state = {
-      anime: [],
-      manga: []
+      items: [],
     };
   }
 
-  animeSearch() {
-    fetchAnime().then( data => this.setState({ anime: data.data }));
+  onSearch(term) {
+    fetchAnime(term).then( data => this.setState({ items: data.data }));
   }
 
   render() {
     return (
     <div>
       <SearchBar 
-          onAnimeSearchTermChange={() => this.animeSearch()} />
-        <ul>
-        {
-          this.state.anime.map(item => {
-            const titleType = Object.keys(item.attributes.titles)[0];
-            return (
-              <li>
-                { item.attributes.titles[titleType] }
-              </li>
-            );
-          })
-        }
-      </ul>
+          onSearchTermChange={(term) => this.onSearch(term)} />
+      <List items={this.state.items} />
     </div>
     );
   }
