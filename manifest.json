@@ -1,0 +1,10 @@
+{
+  "short_name": "Kitsu",
+  "name": "Kitsu Extension",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "dist/index.html",
+    "default_title": "Kitsu"
+  },
+  "version": "1.0"
+}
