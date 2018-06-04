@@ -1,0 +1,2 @@
+webpackHotUpdate(0,{48:function(e,t,l){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var a,u=l(1),r=(a=u)&&a.__esModule?a:{default:a};t.default=function(e){var t=e.title,l=e.imageUrl;return r.default.createElement("li",{key:t},r.default.createElement("h4",null,t),r.default.createElement("img",{src:l,height:"30%",width:"30%",alt:""}))}}});
+//# sourceMappingURL=0.8edd2a247ce8f6337b3c.hot-update.js.map

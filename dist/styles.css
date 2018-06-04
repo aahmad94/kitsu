@@ -1,5 +1,60 @@
 body {
   display: flex;
+  justify-content: center;
+  font-style: Roboto;
+  font-size: 14px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background: green; */
+
+  width: 300px;
+
+  align-self: center;
+}
+
+.search-feed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background: red; */
+}
+
+.form-control {
+  margin: 5px;
+  padding: 5px 5px;
+  width: 250px;
+  border-radius: 5px;
+}
+
+.form-control:focus {
+  outline: none;
+}
+.list-item {
+  display: flex;
   flex-direction: column;
   align-items: center;
+  min-width: 250px;
+  max-width: 250px;
+  
+  margin-top: 15px;
+  padding: 15px;
+  border: 1px solid gray;
+  border-radius: 5px;
+
+  align-self: center;
+}
+
+/* .list-item-title {
+  margin: 15px;
+} */
+
+.list-item img {
+  height: 80%;
+  width: 80%;
 }

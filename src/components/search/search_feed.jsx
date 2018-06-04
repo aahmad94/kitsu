@@ -18,7 +18,7 @@ export default class SearchFeed extends React.Component {
 
   render() {
     return (
-    <div>
+    <div className="search-feed">
       <SearchBar 
           onSearchTermChange={(term) => this.onSearch(term)} />
       <List items={this.state.items} />

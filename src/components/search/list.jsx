@@ -1,8 +1,9 @@
 import React from 'react';
 import ListItem from './list_item';
+
 export default ({ items }) => {
   return (
-    <ul>
+    <ul className="list">
       {
         items.map(item => {
           const titleType = Object.keys(item.attributes.titles)[0];

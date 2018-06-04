@@ -1,0 +1,2 @@
+webpackHotUpdate(0,{48:function(e,t,l){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var a,u=l(1),i=(a=u)&&a.__esModule?a:{default:a};t.default=function(e){var t=e.title,l=e.imageUrl;return i.default.createElement("li",{key:t,className:"list-item"},i.default.createElement("h4",null,t),i.default.createElement("img",{src:l,height:"40%",width:"40%",alt:""}))}}});
+//# sourceMappingURL=0.87c9031f2bfddc00ace3.hot-update.js.map
