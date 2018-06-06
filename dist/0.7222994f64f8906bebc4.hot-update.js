@@ -1,0 +1,2 @@
+webpackHotUpdate(0,{49:function(e,t,l){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var a,i=l(1),c=(a=i)&&a.__esModule?a:{default:a};t.default=function(e){var t=e.itemId,l=e.title,a=e.imageUrl,i=e.onItemSelect;return c.default.createElement("li",{key:l,className:"list-item",onClick:function(e){return i(t)}},c.default.createElement("div",{className:"list-item-title"},l),c.default.createElement("img",{className:"cover-image",src:a,alt:""}))}}});
+//# sourceMappingURL=0.7222994f64f8906bebc4.hot-update.js.map

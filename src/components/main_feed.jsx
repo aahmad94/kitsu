@@ -15,6 +15,7 @@ export default class MainFeed extends React.Component {
 
   handleSearch(term) {
     fetchAnime(term).then( data => this.setState({ items: data.data }));
+    this.state.currentItemId = null;
   }
 
   handleItemSelect(currentItemId) {
@@ -25,9 +26,13 @@ export default class MainFeed extends React.Component {
     if (this.state.currentItemId) {
       const item = this.state.items.filter(el => el.id == this.state.currentItemId)[0];
       return (
-        < CurrentItem 
-          item={item}
-        />
+        <div className="item-page">
+          <SearchBar
+            onSearchTermChange={(term) => this.handleSearch(term)} />
+          < CurrentItem 
+            item={item}
+          />
+        </div>
       );
     } else {
       return (
