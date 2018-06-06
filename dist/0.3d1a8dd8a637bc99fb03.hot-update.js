@@ -1,0 +1,2 @@
+webpackHotUpdate(0,{28:function(e,t,u){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var a,d=u(1),l=(a=d)&&a.__esModule?a:{default:a};t.default=function(e){var t=e.item;return l.default.createElement("div",null,t.id,"DRAGON BALL SUPER")}}});
+//# sourceMappingURL=0.3d1a8dd8a637bc99fb03.hot-update.js.map

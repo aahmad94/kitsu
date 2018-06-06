@@ -1,10 +1,12 @@
 import React from 'react';
 
-export default ({ title, imageUrl }) => {
+export default ({ itemId, title, imageUrl, history, onItemSelect }) => {
+  
   return (
     <li 
       key={title}
       className="list-item"
+      onClick={e => onItemSelect(itemId)}
     >
       <div className="list-item-title">
         {title}

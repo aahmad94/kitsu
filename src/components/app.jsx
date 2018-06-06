@@ -1,13 +1,13 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import SearchFeed from './search/search_feed';
+import MainFeed from './main_feed';
 
 const App = () => {
   return (
     <div className="app">
-      <Route exact path="/" component={SearchFeed} />
+      <Route exact path="/" component={MainFeed} />
 
-    </div>  
+    </div>
   );
 };
 
