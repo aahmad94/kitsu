@@ -1,4 +1,1 @@
-```
-> npm install
-> npm start
-```
+!(image)[./assets/images/kitsu-extension.gif]
